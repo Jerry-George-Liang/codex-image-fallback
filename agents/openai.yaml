@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 图片生成备用接口"
+  short_description: "内置生图不可用时复用 Codex 配置，默认用 gpt-image-2 生成图片"
+  default_prompt: "使用 $codex-image-fallback 生成图片，默认使用 gpt-image-2；只有我要求时才展示模型列表。"
